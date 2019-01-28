@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+}
+.page {
+  display: flex;
+}
+.page_sidebar {
+  display: flex;
+  background: black;
+  padding-right: 1.5rem;
+}
+.page_sidebar_icon {
+  padding: 1.5rem 0;
+}
+.page_sidebar_icon a:hover {
+  color: white;
+}
+.page_sidebar_icon a {
+  color: silver;
+  font-size: 1.5rem;
+  position: fixed;
+  left: 1.5rem;
+}
+.page_content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.page_content_footer {
+  text-align: center;
+  background-color: #969696;
+  padding: 2rem;
+  height: 2rem;
+}
+.page_content_gallery {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  flex-direction: column;
+}
+.page_content_gallery h2 {
+  padding-bottom: 0.5rem;
+}
+.page_content_gallery_images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.page_content_gallery_images_image:hover {
+  transform: scale(1.009);
+}
+.page_content_gallery_images_image {
+  margin: 0.5rem;
+  padding-bottom: 0.7rem;
+  width: 15rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page_content_gallery_images_image img {
+  width: 15rem;
+  height: 17rem;
+}
+.page_content_gallery_images_image .imageDiscription {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  width: 15rem;
+}
+.page_content_gallery_fullGalleryLink {
+  padding: 2rem;
+}
+.page_content_gallery_fullGalleryLink a {
+  padding-top: 1.1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 1.1rem;
+  text-decoration: none;
+  border-style: groove;
+  background-color: grey;
+  color: black;
+  font-size: 20px;
+  border-radius: 0.75rem;
+}
+.page_content_gallery_fullGalleryLink a:hover {
+  background-color: black;
+  color: white;
+}
+.page_content_lower {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page_content_lower_aboutme {
+  flex-grow: 1;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #dcdcdc;
+}
+.page_content_lower_aboutme .aboutme_text p {
+  padding-top: 1rem;
+}
+.page_content_lower_aboutme h3 {
+  padding-top: 1rem;
+}
+.page_content_lower_aboutme_followme {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.page_content_lower_aboutme_followme a:hover {
+  color: grey;
+}
+.page_content_lower_aboutme_followme a {
+  color: black;
+}
+.page_content_lower_getInTouch {
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: #fafafa;
+}
+.page_content_lower_getInTouch .message {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 2rem;
+}
+.page_content_lower_getInTouch .message input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+}
+.page_content_lower_getInTouch .message input[type="submit"] {
+  width: 6rem;
+  padding: 1rem;
+  border-color: black;
+  border-radius: 0.5rem;
+}
+.page_content_lower_getInTouch .message_content {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+.page_content_lower_getInTouch .message_contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+.page_content_lower_getInTouch .message_contact_name input {
+  padding: 1rem;
+  border-color: black;
+  border-radius: 0.25rem;
+}
+.page_content_lower_getInTouch .message_contact_email input {
+  padding: 1rem;
+  border-color: black;
+  border-radius: 0.25rem;
+}
+.page_content_banner {
+  display: flex;
+  width: 100%;
+  background-image: url("https://stmed.net/sites/default/files/dark-wood-wallpapers-25196-5206074.jpg");
+  height: 17rem;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.page_content_banner-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page_content_banner-text h3 {
+  padding-top: 1rem;
+}
+.page_content_banner-text-link {
+  display: flex;
+  padding-top: 3rem;
+  justify-content: center;
+}
+.page_content_banner-text-link a {
+  padding-top: 1.1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 1.1rem;
+  text-decoration: none;
+  border-style: groove;
+  color: white;
+  font-size: 20px;
+  border-radius: 0.75rem;
+}
+.page_content_banner-text-link a:hover {
+  background-color: white;
+  color: black;
+}
+
